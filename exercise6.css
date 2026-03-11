@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FFB6C1;
+}
+
+h1 {
+    color: purple;
+    background-color: rgb(255, 209, 234);
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+}
+
+p {
+    margin: 1.5rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    line-height: 1.5rem;
+}
+
+img {
+    float: right;
+    border: 2px #ffffff solid;
+    margin: .65rem;
+    max-width: 100%;
+}
+
+h2 {
+    color: blueviolet;
+    background-color: rgb(255, 209, 234);
+    padding: .65rem;
+}
+
+/* LINK STATES — Add at the bottom */
+
+a:link {
+    color: rgb(31, 12, 65);
+    text-decoration: none;
+}
+
+a:visited {
+    color: #57023a;
+}
+
+a:hover {
+    color: #C70039;
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkcyan;
+}
