@@ -1,0 +1,96 @@
+body {
+    background-color: #fde5e5;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: right;
+}
+
+main {
+    border: 0px red solid;
+}
+
+article {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 1.3rem;
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: .8rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Link styling */
+
+a:link {
+    color: #045c04;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+/* Link styling – header */
+
+header a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #dddddd;
+    text-decoration: underline;
+}
+
+header a:active {
+    color: #bbbbbb;
+    text-decoration: underline;
+}
+
+/* Logo */
+
+h2.logo {
+    background-color: teal;
+    width: 6rem;
+    height: 6rem;
+
+    display: grid;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* Wrapper */
+
+.wrapper {
+    border: 0px black solid;
+    margin: 0 auto;
+    max-width: 40rem;
+}
