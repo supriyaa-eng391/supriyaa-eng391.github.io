@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fde5e5;
+    line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* HEADER */
+header {
+    background-color: black;
+    color: white;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    background-color: teal;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAV */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+/* PROJECTS */
+.projects {
+    padding: 2rem 0;
+}
+
+.project-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+/* PROJECT CARD */
+article {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+/* ABOUT */
+.about {
+    padding: 2rem 0;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* LINKS */
+a {
+    color: #045c04;
+}
+
+a:hover {
+    color: orange;
+}
