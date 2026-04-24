@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff6f9;
+    color: #333;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* HEADER */
+header {
+    background-color: #ffd6e0;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    background-color: #cdb4db;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAV */
+nav a {
+    color: #5a4e7c;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff8fab;
+}
+
+/* ABOUT SECTION */
+.about-hero {
+    padding: 4rem 0;
+}
+
+.about-flex {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* PROFILE PIC */
+.profile-pic {
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+
+    object-fit: cover; 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* ABOUT BOX */
+.about-box {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+
+    /* subtle pastel shadow */
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.3);
+}
+
+.about-tags {
+    margin-top: 1rem;
+}
+
+.about-tags span {
+    display: inline-block;
+    background-color: #e7c6ff;
+    color: #5a4e7c;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    margin: 0.3rem;
+    font-size: 0.85rem;
+}
+
+/* ✨ HOVER EFFECT */
+.about-box:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 10px 30px rgba(255, 143, 171, 0.5);
+}
+
+/* PROJECTS */
+.projects {
+    padding: 3rem 0;
+}
+
+.project-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+/* PROJECT CARD */
+article {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    transition: 0.3s;
+
+    box-shadow: 0 4px 15px rgba(200, 200, 255, 0.2);
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(180, 150, 255, 0.3);
+}
+
+/* LINKS */
+a {
+    color: #7b6ef6;
+}
+
+a:hover {
+    color: #ff8fab;
+}
+
+/* FOOTER */
+footer {
+    background-color: #ffd6e0;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
