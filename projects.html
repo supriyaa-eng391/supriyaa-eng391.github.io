@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Projects</title>
@@ -9,52 +8,78 @@
 
 <body>
 
-<header>
-    <div class="container header-flex">
-        <h1 class="logo">S</h1>
+<header class="nav-header">
+  <div class="nav-container">
+    <div class="logo">S</div>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="https://supriyaa-eng391.github.io/exercises/exercise5-resume.html" target="_blank">Resume</a>
-        </nav>
+    <div class="nav-flow">
+      <a href="index.html" class="nav-block">HOME</a>
+      <div class="connector"></div>
+      <a href="projects.html" class="nav-block">PROJECTS</a>
+      <div class="connector"></div>
+      <a href="https://supriyaa-eng391.github.io/exercises/exercise5-resume.html" target="_blank" class="nav-block">RESUME</a>
     </div>
+  </div>
 </header>
 
 <main>
 
-<section class="projects">
-    <div class="container">
-        <h2>Projects</h2>
+<section class="projects-alt">
 
-        <div class="project-grid">
+  <div class="project-row">
+    <img src="./images/Screenshot 2026-05-04 031641.jpg" alt="Res-Q">
+    <div class="project-content">
+      <h3>Res-Q</h3>
+      <p>Multilingual emergency assistant with real-time voice and location support.</p>
 
-            <article>
-                <h3>Res-Q</h3>
-                <p>Multilingual emergency assistant with real-time voice + location support.</p>
-                <a href="#">View Project</a>
-            </article>
+      <div class="tech-tags">
+        <span>AI</span>
+        <span>Voice</span>
+        <span>Full Stack</span>
+      </div>
 
-            <article>
-                <h3>PennyWise</h3>
-                <p>Student budgeting platform built during a hackathon.</p>
-                <a href="#">View Project</a>
-            </article>
-
-            <article>
-                <h3>Research.AI</h3>
-                <p>AI tool that summarizes research into clear insights.</p>
-                <a href="#">View Project</a>
-            </article>
-
-        </div>
+      <a href="#">View Project →</a>
     </div>
+  </div>
+
+  <div class="project-row reverse">
+    <img src="./images/PennyWise Home.png" alt="PennyWise">
+    <div class="project-content">
+      <h3>PennyWise</h3>
+      <p>Student budgeting platform built during a hackathon.</p>
+
+      <div class="tech-tags">
+        <span>Finance</span>
+        <span>Web Dev</span>
+        <span>Hackathon Winner</span>
+      </div>
+
+      <a href="#">View Project →</a>
+    </div>
+  </div>
+
+  <div class="project-row">
+    <img src="./images/frfinalresearch.jpg" alt="Research AI">
+    <div class="project-content">
+      <h3>Research.AI</h3>
+      <p>AI tool that summarizes research into clear, structured insights.</p>
+
+      <div class="tech-tags">
+        <span>NLP</span>
+        <span>AI</span>
+        <span>Gemini API</span>
+      </div>
+
+      <a href="#">View Project →</a>
+    </div>
+  </div>
+
 </section>
 
 </main>
 
 <footer>
-    <p>© 2026 Supriyaa Hejib</p>
+  <p>© 2026 Supriyaa Hejib</p>
 </footer>
 
 </body>
